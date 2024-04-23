@@ -4,7 +4,7 @@ import { routes } from './components/routes/routes'
 
 import ReactGA from 'react-ga4';
 function App() {
-ReactGA.initialize('');
+// ReactGA.initialize('')
   return (
     <>
     <RouterProvider router={routes} />
